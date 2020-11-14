@@ -1,0 +1,132 @@
+{
+    "data": [
+      {
+        "region": "Midwest",
+        "city": "Jackson",
+        "hospitals": 1500,
+        "schools": 1768,
+        "colleges": 1000,
+        "companies": 3000
+      },
+      {
+        "region": "Midwest",
+        "city": "Chicago",
+        "hospitals": 10,
+        "schools": 1300,
+        "colleges": 6300,
+        "companies": 1440
+      },
+      {
+        "region": "Midwest",
+        "city": "Great Lakes East",
+        "hospitals": 20,
+        "schools": 1483,
+        "colleges": 1563,
+        "companies": 1134
+      },
+      {
+        "region": "Midwest",
+        "city": "Great Lakes West ",
+        "hospitals": 30,
+        "schools": 9100,
+        "colleges": 1563,
+        "companies": 1900
+      },
+      {
+        "region": "Midwest",
+        "city": "Cincinnati",
+        "hospitals": 40,
+        "schools": 1483,
+        "colleges": 1563,
+        "companies": 1614
+      },
+      {
+        "region": "Midwest",
+        "city": "Nashville ",
+        "hospitals": 500,
+        "schools": 12831,
+        "colleges": 15631,
+        "companies": 11440
+      },
+      {
+        "region": "Northeast",
+        "city": "",
+        "hospitals": 200,
+        "schools": 1283,
+        "colleges": 1563,
+        "companies": 3214
+      },
+      {
+        "region": "Northeast",
+        "city": "Northern ",
+        "hospitals": 100,
+        "schools": 8311,
+        "colleges": 899,
+        "companies": 1344
+      },
+      {
+        "region": "Northeast",
+        "city": "Central ",
+        "hospitals": 150,
+        "schools": 1908,
+        "colleges": 1563,
+        "companies": 1400
+      },
+      {
+        "region": "Northeast",
+        "city": "Southern",
+        "hospitals": 250,
+        "schools": 18300,
+        "colleges": 16300,
+        "companies": 14400
+      },
+      {
+        "region": "Southeast ",
+        "city": "",
+        "hospitals": 900,
+        "schools": 1323,
+        "colleges": 15630,
+        "companies": 114400
+      },
+      {
+        "region": "Southeast ",
+        "city": "Carolinas",
+        "hospitals": 100,
+        "schools": 1003,
+        "colleges": 1756,
+        "companies": 1644
+      },
+      {
+        "region": "Southeast ",
+        "city": "Atlanta",
+        "hospitals": 200,
+        "schools": 1830,
+        "colleges": 63,
+        "companies": 44
+      },
+      {
+        "region": "Southeast ",
+        "city": "Gulf",
+        "hospitals": 50,
+        "schools": 1000,
+        "colleges": 15003,
+        "companies": 1014
+      },
+      {
+        "region": "Southeast ",
+        "city": "Georgia",
+        "hospitals": 300,
+        "schools": 18300,
+        "colleges": 1200,
+        "companies": 1200
+      },
+      {
+        "region": "Southeast ",
+        "city": "Florida ",
+        "hospitals": 250,
+        "schools": 1190,
+        "colleges": 15632,
+        "companies": 14400
+      }
+     ]
+}

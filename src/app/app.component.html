@@ -1,0 +1,52 @@
+<div class="card">
+  <h5>Region Summary Data with Subheader, Grouping & total row</h5>
+  <p-table
+    [value]="summary"
+    [columns]="summaryTableColumns"
+    (sortFunction)="customSort($event)"
+    [customSort]="true"
+  >
+    <ng-template pTemplate="header" let-columns>
+      <tr>
+        <th *ngFor="let col of columns" [pSortableColumn]="col.field">
+          {{ col.header }}
+          <p-sortIcon
+            [field]="col.field"
+            ariaLabel="Activate to sort"
+            ariaLabelDesc="Activate to sort in descending order"
+            ariaLabelAsc="Activate to sort in ascending order"
+          ></p-sortIcon>
+        </th>
+      </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-summary let-rowIndex="rowIndex">
+      <tr
+        class="subheader-row"
+        *ngIf="rowGroupMetadata[summary.region].index === rowIndex"
+      >
+        <td *ngFor="let col of summaryTableColumns; let colIndex = index">
+          <span
+            *ngIf="col.field === 'region'; else displayTotalFields"
+            style="font-weight: bold"
+            >{{ summary.region }}</span
+          >
+          <ng-template #displayTotalFields>
+            <span class="total">{{
+              rowGroupMetadata[summary.region][col.field]
+            }}</span>
+          </ng-template>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <ng-container
+          *ngFor="let col of summaryTableColumns; let colIndex = index"
+        >
+          <td *ngIf="col.field !== 'region'">
+            <span>{{ summary[col.field] }}</span>
+          </td>
+        </ng-container>
+      </tr>
+    </ng-template>
+  </p-table>
+</div>
